@@ -1,0 +1,13 @@
+/* Google fonts import */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap");
+
+/* CSS Variables */
+:root {
+    --primary-font: "Inter", sans-serif;
+    --secondary-font: "Macondo", cursive;
+    --primary-color: #d9af62; /* muted brown */
+    --secondary-color: #f2daac; /* cream*/
+    --tertiary-color: #bf7821; /* light brown */
+    --highlight-color: #8c4404; /* brown */
+    --highlight-color-light: #401801; /* dark brown */
+}
