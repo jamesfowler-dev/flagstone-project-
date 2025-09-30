@@ -11,6 +11,18 @@
     --highlight-color-dark: #441f05; /* dark ebony */
 }
 
+/* Custom card color (uses the dark ebony from variables) */
+.card-custom {
+    background-color: #c29765; /* updated to requested color */
+    color: black;
+    border: 1px solid rgba(0,0,0,0.12);
+}
+
+.card-custom .card-body {
+    background: transparent;
+    color: black;
+}
+
 /* Global styles */
 
 body {
