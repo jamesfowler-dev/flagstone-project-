@@ -23,6 +23,10 @@ body {
     background-color: var(--secondary-color);
 }
 
+.section {
+    padding-top: 4rem; /* Prevent navbar overlap */
+}
+
 h1 {
     font-family: var(--primary-font);
     color: black;
