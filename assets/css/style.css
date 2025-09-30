@@ -18,6 +18,11 @@ body {
     background-color: var(--primary-color);
 }
 
+/* Navbar */
+#navbar {
+    background-color: var(--secondary-color);
+}
+
 h1 {
     font-family: var(--primary-font);
     color: black;
