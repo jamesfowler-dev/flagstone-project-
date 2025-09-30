@@ -11,6 +11,8 @@
     --highlight-color-dark: #441f05; /* dark ebony */
 }
 
+/* Global styles */
+
 body {
     font-family: var(--primary-font);
     /* Pushes the top of the header down under fixed navbar */
@@ -25,6 +27,18 @@ body {
 
 .section {
     padding-top: 4rem; /* Prevent navbar overlap */
+}
+
+#nav-button {
+    font-family: var(--primary-font);
+    border: 2px solid white;
+    color: white;
+}
+
+#header-button {
+    font-family: var(--primary-font);
+    border: 2px solid black;
+    color: black;
 }
 
 h1 {
