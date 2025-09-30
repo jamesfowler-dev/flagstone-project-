@@ -23,6 +23,7 @@ body {
 /* Navbar */
 #navbar {
     background-color: var(--secondary-color);
+    color: black;
 }
 
 .section {
@@ -31,8 +32,8 @@ body {
 
 #nav-button {
     font-family: var(--primary-font);
-    border: 2px solid white;
-    color: white;
+    border: 2px solid black;
+    color: black;
 }
 
 #header-button {
@@ -43,5 +44,14 @@ body {
 
 h1 {
     font-family: var(--primary-font);
+    color: black;
+}
+
+/* Footer section */
+#contact {
+    background-color: var(--secondary-color);
+}
+
+i {
     color: black;
 }
