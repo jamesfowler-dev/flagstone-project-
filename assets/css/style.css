@@ -3,8 +3,8 @@
 
 /* CSS Variables */
 :root {
-    --primary-font: "Inter", sans-serif;
-    --secondary-font: "Macondo", cursive;
+    --primary-font: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --secondary-font: "Macondo";
     --primary-color: #ebd5a4; /* light brown */
     --secondary-color: #c29765; /* twine */
     --highlight-color: #d9bb77; /* harvest gold*/
@@ -19,6 +19,6 @@ body {
 }
 
 h1 {
-    font-family: var(--secondary-font);
-    color: var(--highlight-color-dark);
+    font-family: var(--primary-font);
+    color: black;
 }
