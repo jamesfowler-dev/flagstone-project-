@@ -5,9 +5,20 @@
 :root {
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Macondo", cursive;
-    --primary-color: #d9af62; /* muted brown */
-    --secondary-color: #f2daac; /* cream*/
-    --tertiary-color: #bf7821; /* light brown */
-    --highlight-color: #8c4404; /* brown */
-    --highlight-color-light: #401801; /* dark brown */
+    --primary-color: #ebd5a4; /* light brown */
+    --secondary-color: #c29765; /* twine */
+    --highlight-color: #d9bb77; /* harvest gold*/
+    --highlight-color-dark: #441f05; /* dark ebony */
+}
+
+body {
+    font-family: var(--primary-font);
+    /* Pushes the top of the header down under fixed navbar */
+    padding-top: 57.15px;
+    background-color: var(--primary-color);
+}
+
+h1 {
+    font-family: var(--secondary-font);
+    color: var(--highlight-color-dark);
 }
