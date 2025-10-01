@@ -11,18 +11,6 @@
     --highlight-color-dark: #441f05; /* dark ebony */
 }
 
-/* Custom card color (uses the dark ebony from variables) */
-.card-custom {
-    background-color: #d9bb77; /* updated to requested color */
-    color: black;
-    border: 1px solid rgba(0, 0, 0, 0.12);
-}
-
-.card-custom .card-body {
-    background: transparent;
-    color: black;
-}
-
 /* Global styles */
 
 body {
@@ -52,10 +40,18 @@ body {
     color: black;
 }
 
+/* Header  */
 #header-button {
     font-family: var(--primary-font);
     border: 2px solid black;
     color: black;
+}
+
+.btn:hover {
+    background-color: var(--secondary-color);
+    border: 2px solid black;
+    color: black;
+
 }
 
 h1 {
@@ -63,10 +59,36 @@ h1 {
     color: black;
 }
 
-/* About us section */
+#header-refer {
+    background-image: url(assets/images/bubbles-background.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.hero-overlay {
+    position: relative;
+    background: #c29765;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+/* How we can help section */
 .prevent-link {
     color: black;
     text-decoration: none;
+}
+
+/* Custom card color */
+.card-custom {
+    background-color: #d9bb77; /* updated to requested color */
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.card-custom .card-body {
+    background: transparent;
+    color: black;
 }
 
 /* Checklist */
@@ -88,6 +110,7 @@ h1 {
 /* Footer section */
 #contact {
     background-color: var(--secondary-color);
+   
 }
 
 /* Centering the referral form and inputs */
@@ -111,3 +134,14 @@ h1 {
 i {
     color: black;
 }
+
+/* Media queries for tablets 576px and up */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    /* Make all cards display as a flex container */
+    #service-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+
+    }
