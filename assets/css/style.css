@@ -69,7 +69,13 @@ h1 {
     text-decoration: none;
 }
 
-/* Checklist color */
+/* Checklist */
+.list-group {
+    width: fit-content;
+    margin: auto;
+    padding: 1rem;
+}
+
 .list-group .list-group-item {
     background-color: var(--secondary-color);
     color: black;
