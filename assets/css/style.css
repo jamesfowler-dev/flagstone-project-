@@ -13,7 +13,7 @@
 
 /* Custom card color (uses the dark ebony from variables) */
 .card-custom {
-    background-color: #c29765; /* updated to requested color */
+    background-color: #d9bb77; /* updated to requested color */
     color: black;
     border: 1px solid rgba(0, 0, 0, 0.12);
 }
@@ -69,25 +69,12 @@ h1 {
     text-decoration: none;
 }
 
-/* Checklist / referral list styling — full container color */
+/* Checklist color */
 .list-group .list-group-item {
     background-color: var(--secondary-color);
     color: black;
     border: 1px solid rgba(0, 0, 0, 0.12);
-}
-.list-group .form-check-input {
-    /* keep the native checkbox visible against the colored background */
-    accent-color: black;
-    width: 1.05em;
-    height: 1.05em;
-}
-.list-group .form-check-label {
-    color: inherit; /* inherit the list item text color */
-}
-
-/* Optional: small separation between items for clarity */
-.list-group .list-group-item + .list-group-item {
-    margin-top: 0.35rem;
+    margin: 0.2rem 0;
 }
 
 /* Testimonials */
