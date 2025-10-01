@@ -3,7 +3,7 @@
 
 /* CSS Variables */
 :root {
-    --primary-font: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --primary-font: "Inter", "Helvetica Neue", Arial, sans-serif;
     --secondary-font: "Macondo";
     --primary-color: #ebd5a4; /* light brown */
     --secondary-color: #c29765; /* twine */
@@ -117,35 +117,4 @@ h1 {
 
 i {
     color: black;
-}
-
-/* Media queries for tablets 540px and up */
-@media screen and (min-width: 540px) {
-    /* Make all service cards the same width */
-    #services .card-body {
-        min-width: 200px;
-    }
-}
-/* Media queries for small laptops 992px and up */
-@media screen and (min-width: 992px) {
-    /* Make all service cards the same height */
-    #services .card-body {
-        min-height: auto;
-    }
-}
-
-/* Media queries for large screens 1200px and up */
-@media screen and (min-width: 1200px) {
-    /* Make all service cards the same height */
-    #services .card-body {
-        min-height: 220px;
-    }
-}
-
-/* Media queries for extra large screens 1400px and up */
-@media screen and (min-width: 1400px) {
-    /* Make all service cards the same height */
-    #services .card-body {
-        min-height: 195px;
-    }
 }
