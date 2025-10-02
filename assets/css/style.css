@@ -88,7 +88,6 @@ h1 {
 }
 
 #header-refer {
-    background-image: url(assets/images/bubbles-background.jpg);
     background-size: cover;
     background-position: center;
     transition: opacity 0.5s ease-in-out;
@@ -99,6 +98,17 @@ h1 {
     background: #c29765;
     padding: 2rem;
     border-radius: 20px;
+}
+
+/* narrower images centered within the carousel */
+.carousel .carousel-item img {
+    width: auto; /* don't force full width */
+    max-width: 760px; /* desired max width */
+    max-height: 420px; /* optional height limit */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    object-fit: contain; /* ensures the whole image is visible */
 }
 
 /* How we can help section */
@@ -166,4 +176,30 @@ i {
     background-color: var(--primary-color) !important;
     border: 2px solid black;
     color: black;
+}
+
+/* Media queries for responsive carousel images */
+
+@media (min-width: 1200px) {
+    /* xl screens: make carousel taller and allow images to grow */
+    .carousel .carousel-item {
+        height: 520px;
+    }
+
+    .carousel .carousel-item img {
+        max-width: 1000px;
+        max-height: 520px;
+    }
+}
+
+@media (min-width: 1400px) {
+    /* xxl screens: even larger images */
+    .carousel .carousel-item {
+        height: 620px;
+    }
+
+    .carousel .carousel-item img {
+        max-width: 1400px;
+        max-height: 620px;
+    }
 }

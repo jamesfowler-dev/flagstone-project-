@@ -6,7 +6,7 @@ The main goal is to create an informative webpage that introduces the Prevent st
 
 Visit the deloyed site here: [Visit Prevent](https://jamesfowler-dev.github.io/flagstone-project-/)
 
-##Contents
+## Contents
 
 -   User Experience
 
@@ -47,7 +47,7 @@ Google Fonts was used to import the chosen fonts for use in the site.
 
 -   I have chosen the font stack: "Inter", "Helvetica Neue", Arial, sans-serif. I wanted font that was highly accessible and widely used across browsers but that also looked clean and easy-to-read. The sites purpose was to inform so the right font was a critical part of the design.
 
-![image of font zoomed](flagstone-project/assets/images/screenshot-of-home-page-font.png)
+![image of font zoomed](assets/images/screenshot-of-home-page-font.png)
 
 ### Imagery
 
@@ -55,10 +55,10 @@ Google Fonts was used to import the chosen fonts for use in the site.
 
 Wireframes were created for mobile, tablet and desktop using balsamiq:
 
-![image of home page](flagstone-project/assets/images/wireframe-home-page.png)
-![image of refer page](flagstone-project/assets/images/wireframe-referral-page.png)
-![image of support](flagstone-project/assets/images/wireframe-support-page.png)
-![image of succecss page](flagstone-project/assets/images/wireframe-success-page.png)
+![image of home page](assets/images/wireframe-home-page.png)
+![image of refer page](assets/images/wireframe-referral-page.png)
+![image of support](assets/images/wireframe-support-page.png)
+![image of succecss page](assets/images/wireframe-success-page.png)
 
 ## Features
 
@@ -67,7 +67,7 @@ The website is comprised of a home page, a referral page, a support page and a s
 All Pages on the website are responsive and have:
 
 A favicon in the browser tab.
-![image of favicon zoomed](flagstone-project/assets/images/screenshot-of-favicon.png)
+![image of favicon zoomed](assets/images/screenshot-of-favicon.png)
 
 ## Technologies Used
 
