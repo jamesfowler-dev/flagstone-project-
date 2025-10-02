@@ -23,6 +23,7 @@ body {
 a {
     text-decoration: none;
     color: inherit;
+    font-weight: bold;
 }
 
 /* Navbar */
@@ -63,6 +64,12 @@ i:hover {
     color: black;
 }
 
+#nav-links {
+    color: black;
+
+    font-size: 2rem;
+}
+
 /* Header  */
 #header-button {
     font-family: var(--primary-font);
@@ -82,9 +89,11 @@ i:hover {
     color: black;
 }
 
-h1 {
+h1 h2 {
     font-family: var(--primary-font);
     color: black;
+    font-size: 2rem; /* 32px or larger */
+    font-weight: bold;
 }
 
 #header-refer {
