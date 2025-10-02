@@ -162,8 +162,8 @@ i {
     max-width: 640px; /* limit width so inputs don't stretch too wide */
 }
 
-a#header-button-support.custom-button-outline:hover {
-    background-color: var(--secondary-color);
+.final-button:hover {
+    background-color: var(--primary-color) !important;
     border: 2px solid black;
     color: black;
 }
