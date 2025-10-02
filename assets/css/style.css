@@ -57,6 +57,12 @@ a {
     color: black;
 }
 
+i:hover {
+    background-color: var(--primary-color);
+
+    color: black;
+}
+
 /* Header  */
 #header-button {
     font-family: var(--primary-font);
