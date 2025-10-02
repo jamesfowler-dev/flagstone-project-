@@ -130,7 +130,7 @@ h1 {
     background-color: var(--secondary-color);
     color: black;
     border: 1px solid rgba(0, 0, 0, 0.12);
-    margin: 0.2rem 0;
+    margin: 0.5rem 0;
 }
 
 /* Testimonials */
